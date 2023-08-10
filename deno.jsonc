@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "npm --prefix ./client run dev & deno run -A --watch server/main.ts  ",
+    "build": "npm --prefix ./client run build && deno run -A server/main.ts  ",
+    // "serve": "deno run --allow-net --allow-read https://deno.land/std@0.157.0/http/file_server.ts dist/",
+    // "learn": "echo $INIT_CWD && pwd",
+    "v": "vite"
+  },
+  "fmt": { "semiColons": false, "indentWidth": 4 }
+}
